@@ -720,4 +720,5 @@
 #     digit = a % 10
 #     product = product * digit
 #     a = a // 10
-# print("Product =", product)
+# print("Product =", product) 
+
