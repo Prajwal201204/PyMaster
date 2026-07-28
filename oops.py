@@ -1,5 +1,5 @@
 
-# # 
+# # #
 # class Python:
 #     a=50
 #     b=20
@@ -10,5 +10,3 @@
 # Python.a=12
 # print(ob1.a,ob1.b)
 # print(ob2.a,ob2.b)
-
-

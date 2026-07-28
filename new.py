@@ -28,8 +28,6 @@
 # print(newls)
 
 
-
-
 # 2 WAP to check that the length of the names stored inside the list is even or odd. If even reverse it and append. else append its length only.
 # names = ["Alice", "Bobo", "Charlie", "David",'omie']
 # ls=[]
@@ -121,8 +119,6 @@
 # a=['google',' mapple', 'apple', 'python', 'orange']
 # b={i:j for i,j in zip(range(len(a)), a)}
 # print(b)
-
-
 
 
 
