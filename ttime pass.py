@@ -50,6 +50,9 @@
 
 # practise start - (1-9-2026)
 
+# Simple If qutions: 
+
+
 # # 1. Wap to print the square of a number only if it is even. 
 # a=int(input("enter number"))
 # if a%2==0:
@@ -95,7 +98,84 @@
 # if 'a'<=a<='z' or 'A'<=a<='Z':
 #     print('not digit')
 
-# 10. Wap to check whether the given integer is multiple of 3. 
-a=int(input('enter the value: '))
-if a%3==0:
-    print("Multiple of 3")
+# # 10. Wap to check whether the given integer is multiple of 3. 
+# a=int(input('enter the value: '))
+# if a%3==0:
+#     print("Multiple of 3")
+
+
+# -----------------------------------------------------------------------------------------------------------------
+
+# # If else qution :
+
+# # 11. Wap to check whether the data is mutable or not. 
+# a= eval(input('enter the value: '))
+# if type(a) in (list,set,dict):
+#     print('mutable datatype')
+# else:
+#     print('immutable')
+
+# # 12. Wap to check whether the given character is digit or not. 
+# a= (input('enter the value: '))
+# if 'a'<=a<='z' or 'A'<=a<='Z':
+#     print( 'notdigit')
+# else:
+#     print('digit')
+
+# # 13. Wap to check whether the given character is special or not. 
+# a= (input('enter the value: '))
+# if a in '&$#@':
+#     print('special')
+# else:
+#     print('not spaciel')
+
+# # 14. Wap to check whether a list consists of middle value or not. 
+# a= eval(input('enter the value: '))
+# if len(a)%2==1:
+#     print('mid value')
+# else:
+#     print('not mid value')
+
+# # 15. Wap to check whether the number is even or odd. 
+# a= eval(input('enter the value: '))
+# if a%2==0:
+#     print('even')
+# else:
+#     print('odd')
+
+# # 16. Wap to check whether the given data is mutable or immutable. 
+# a= eval(input('enter the value: '))
+# if type(a) in (list,set,dict):
+#     print('mutable')
+# else:
+#     print('immutable')
+
+# # 17. Wap to check whether 2 values are pointing to the same memory or not. 
+# a = [10, 20, 30]
+# b = a
+# if a is b:
+#     print("Both are pointing to the same memory")
+# else:
+#     print("Both are not pointing to the same memory")
+
+# # 18. Consider a tuple of length 2 and check whether the tuple is homogenous or not. 
+# a = (10, 20)
+# if type(a[0])==type(a[1]):
+#     print('homogenous')
+# else:
+#     print('not homo')
+
+# # 19. Wap to check whether the string is palindrome or not. 
+# a= (input('enter the value: '))
+# if a==a[::-1]:
+#     print('palindrome')
+# else:
+#     print('not palin')
+
+# # 20. Wap to check whether the number is positive or negative. 
+# a= int(input('enter the value: '))
+# if 1<=a<=9 :
+#     print('positive')
+# else:
+#     print('negative')
+
