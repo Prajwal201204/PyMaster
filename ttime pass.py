@@ -194,3 +194,74 @@
 #     print(type('digit'))
 # else:
 #     print('specail char')
+
+
+# # 22. Wap to check whether the given integer is single digit or two digits or three digits or more than three digits. 
+# a= int(input('enter the value: '))
+# if -9<=a<=9 :
+#     print('single digit')
+# elif -99<=a<=99:
+#     print('two sum')
+# elif -999<=a<=999:
+#     print('three digit')
+# else:
+#     print('more than three')
+
+# # 23.Wap to check the given points are lying in which quadrant. 
+# x = int(input("Enter x: "))
+# y = int(input("Enter y: "))
+# if x > 0 and y > 0:
+#     print("First Quadrant")
+# elif x < 0 and y > 0:
+#     print("Second Quadrant")
+# elif x < 0 and y < 0:
+#     print("Third Quadrant")
+# elif x > 0 and y < 0:
+#     print("Fourth Quadrant")
+# else:
+#     print("Point lies on X-axis, Y-axis or Origin")
+
+# # 24. Wap to find the greatest of 3 numbers. 
+# a= int(input('enter the value: '))
+# b= int(input('enter the value: '))
+# c= int(input('enter the value: '))
+# if a<=b and c<=b:
+#     print('b:',b)
+# elif b<=a and c<=a:
+#     print('a:',a)
+# else:
+#     print('c:',c)
+
+# # 25. Wap to find the smallest of 3 numbers. 
+# a= int(input('enter the value: '))
+# b= int(input('enter the value: '))
+# c= int(input('enter the value: '))
+# if a>=b and c>=b:
+#     print('b:',b)
+# elif b>=a and c>=a:
+#     print('a:',a)
+# else:
+#     print('c:',c)
+
+# # 26.Wap to check the relation between two integer numbers. 
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# if a == b:
+#     print("Both numbers are equal")
+# elif a > b:
+#     print("First number is greater")
+# else:
+#     print("Second number is greater")
+
+# 27. Consider a character input if it is uppercase convert it into lowercase, if it is lowercase convert it into uppercase, 
+# if it is digit print the reminder when  it is divided by 3 else if it is special character print it’s ASCII value. 
+a = (input("Enter first number: "))
+if 'a'<=a<='z':
+    print((chr(ord(a)-32)))
+elif 'A'<=a<='Z':
+    print(a.lower())
+elif '0' <= a <= '9':
+    print(int(a) % 3)
+else:
+    print(ord(a))
+    
