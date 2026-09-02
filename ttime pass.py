@@ -180,6 +180,7 @@
 #     print('negative')
 
 
+# ---------------------------------------------------------------------------------------------------------------------------
 
 # # If else Elif qution : (2-9-2026)
 
@@ -253,15 +254,158 @@
 # else:
 #     print("Second number is greater")
 
-# 27. Consider a character input if it is uppercase convert it into lowercase, if it is lowercase convert it into uppercase, 
-# if it is digit print the reminder when  it is divided by 3 else if it is special character print it’s ASCII value. 
-a = (input("Enter first number: "))
-if 'a'<=a<='z':
-    print((chr(ord(a)-32)))
-elif 'A'<=a<='Z':
-    print(a.lower())
-elif '0' <= a <= '9':
-    print(int(a) % 3)
+# # 27. Consider a character input if it is uppercase convert it into lowercase, if it is lowercase convert it into uppercase, 
+# # if it is digit print the reminder when  it is divided by 3 else if it is special character print it’s ASCII value. 
+# a = (input("Enter first number: "))
+# if 'a'<=a<='z':
+#     print((chr(ord(a)-32)))
+# elif 'A'<=a<='Z':
+#     print(a.lower())
+# elif '0' <= a <= '9':
+#     print(int(a) % 3)
+# else:
+#     print(ord(a))
+
+
+# # 28.Wap  to print ‘Fizz’ if the given number is multiple of three print ‘buzz’ if the given number is multiple of 5 and print ‘Fizzbuzz’ 
+# # if the number is multiple of both 3 and 5. 
+# a = int(input("Enter first number: "))
+# if  a%3==0 and a%5==0:
+#     print('Fizzbuzz')
+# elif a%5==0:
+#     print('buzz')
+# elif a%3==0:
+#     print('fizz')
+# else:
+#     print(a)
+
+
+# -----------------------------------------------------------------------------------------------------------------------
+
+# Nested if: 
+
+
+# # 29.Wap to login into the Instagram with valid username and password.(enter password only if the user name is valid) 
+# username=input('enter the user name: ')
+# if username=='admin':
+#     password=input('enter the password : ')
+#     if password=='p123':
+#         print('login')
+#     else:
+#         print('wring password')
+# else:
+#     print('user name not correct')
+
+
+# # 30. Wap to print the middle value of a list only if it is string. 
+# a = [10, "pra", 30]
+# middle = len(a) // 2
+# if len(a) % 2 != 0:
+#     if type(a[middle]) == str:
+#         print(a[middle])
+
+
+# # 31.Wap to check whether the character is vowel or consonant. 
+# a=(input('enter the user name: '))
+# if 'a'<=a<='z' or 'A'<=a<='Z':
+#     if a in 'aeiouAEIOU':
+#         print('vowel')
+#     else:
+#         print('consonant')
+# else:
+#     print('not character')
+    
+
+# #32.Wap to find the greatest of 4 numbers. 
+# a=int(input('enter the user name: '))
+# b=int(input('enter the user name: '))
+# c=int(input('enter the user name: '))
+# d=int(input('enter the user name: '))
+# if a >= b and a >= c and a >= d:
+#     print(a)
+# elif b >= a and b >= c and b >= d:
+#     print(b)
+# elif c >= a and c >= b and c >= d:
+#     print(c)
+# else:
+#     print(d)
+
+
+# # 33. Wap to print the value as it is only if the length of the value is even. 
+# a=(input('enter the user name: '))
+# if len(a)%2==0:
+#     print(a)
+# else:
+#     print('not even',a)
+
+
+# # 34.Wap to print the last value of a list only if it is palindrome string starting with vowel. 
+# a=[10, 20, "omjomo"]
+# if type(a[-1])==str:
+#     if a[-1]==a[-1][::-1]:
+#         if a[-1][0] in 'aeiouAEIOU':
+#             print(a[-1])
+#         else:
+#             print('not vowel')
+#     else:
+#         print('not palandrom')
+# else:
+#     print('not string')
+
+
+# # 35.Wap to print the reversed string only if it is starting with vowel ,ending with consonant and having a middle value. 
+# a='apple'
+# if len(a)%2==1:
+#     if a[0] in 'aeiouAEIOU':
+#         if a[-1] not in 'aeiouAEIOU':
+#             print(a[::-1])
+#         else:
+#             print('not consonant')
+#     else:
+#         print('not vowel')
+# else:
+#     print('not middle value')
+
+
+# # 36.Wap to find the second greatest of 4 values. 
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# c = int(input("Enter third number: "))
+# d = int(input("Enter fourth number: "))
+# if a >= b and a >= c and a >= d:
+#     second = max(b, c, d)
+# elif b >= a and b >= c and b >= d:
+#     second = max(a, c, d)
+# elif c >= a and c >= b and c >= d:
+#     second = max(a, b, d)
+# else:
+#     second = max(a, b, c)
+# print("Second greatest =", second)
+
+
+# # 37.Wap to find the smallest of 4 numbers.
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# c = int(input("Enter third number: "))
+# d = int(input("Enter fourth number: "))
+# if a<=b and a<=c and a<=d:
+#     print(a) 
+# elif b<=a and b<=c and b<=d:
+#     print(b) 
+# elif c<=a and c<=b and c<=d:
+#     print(c)
+# else:
+#     print(d)
+
+
+# 38. Write a program to print middle Character of the given string only if it is upper Case Character. 
+a='aLe'
+midd=len(a)//2
+if len(a)%2==1:
+    if 'A'<=a[midd]<='Z':
+        print(a[midd]) 
+    else:
+        print('lower case')
 else:
-    print(ord(a))
+    print('not midd valu')
     
