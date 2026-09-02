@@ -179,3 +179,18 @@
 # else:
 #     print('negative')
 
+
+
+# # If else Elif qution : (2-9-2026)
+
+
+# # 21. Wap to check whether the char is uppercase, lowercase, digit or special char. 
+# a= (input('enter the value: '))
+# if 'a'<=a<='z' :
+#     print('lowercase')
+# elif 'A'<=a<='Z':
+#     print('uppercase')
+# elif '0'<=a<='9' :
+#     print(type('digit'))
+# else:
+#     print('specail char')
