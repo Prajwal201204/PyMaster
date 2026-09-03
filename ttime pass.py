@@ -492,11 +492,80 @@
 #     i=i+1
 
 
-# 48.Wap to print factors of a integer number. 
-n = int(input("Enter n: "))
-i=1
-while i<=n:
-    if n%i==0:
-        print(i)
-    i=i+1
-    
+# # 48.Wap to print factors of a integer number. 
+# n = int(input("Enter n: "))
+# i=1
+# while i<=n:
+#     if n%i==0:
+#         print(i)
+#     i=i+1
+
+
+# # 49.Wap to toggle a string. 
+# a='PraJwAl'
+# i=0
+# result=''
+# while i<len(a):
+#     if 'A'<=a[i]<='Z':
+#         result=result+(chr(ord(a[i])+32))
+#     elif 'a'<=a[i]<='z':
+#         result=result+(chr(ord(a[i])-32))
+#     i=i+1
+# print(result)
+
+
+# # 50.Wap to reverse the given number. 
+# n = 2569
+# rev = 0
+# while n > 0:
+#     digit = n % 10
+#     rev = rev * 10 + digit
+#     n = n // 10
+# print("Reverse =", rev)
+
+
+# # 51.Wap to find the sum of individual digits of a number. 
+# a=12345
+# i=0
+# add=0
+# while i<a:
+#     digit=a % 10
+#     add=add + digit
+#     a=a//10
+# print(add)
+
+
+# # 52. Wap to check whether the number is perfect or not. 
+# n = int(input("Enter number: "))
+# i = 1
+# sum = 0
+# while i < n:
+#     if n % i == 0:
+#         sum = sum + i
+#     i = i + 1
+# if sum == n:
+#     print("Perfect Number")
+# else:
+#     print("Not a Perfect Number")
+
+
+# # 53.Wap to login to phonepe by entering correct otp. 
+# correct_otp = 1234
+# while True:
+#     otp = int(input("Enter OTP: "))
+#     if otp == correct_otp:
+#         print("Login Successful")
+#         break
+#     else:
+#         print("Invalid OTP")
+
+
+# 54.Wap to run infinite loop until user enters the correct password. 
+correct_password = "python123"
+while True:
+    password = input("Enter password: ")
+    if password == correct_password:
+        print("Login Successful")
+        break
+    else:
+        print("Wrong Password")
