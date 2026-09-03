@@ -398,14 +398,105 @@
 #     print(d)
 
 
-# 38. Write a program to print middle Character of the given string only if it is upper Case Character. 
-a='aLe'
-midd=len(a)//2
-if len(a)%2==1:
-    if 'A'<=a[midd]<='Z':
-        print(a[midd]) 
-    else:
-        print('lower case')
-else:
-    print('not midd valu')
+# # 38. Write a program to print middle Character of the given string only if it is upper Case Character. 
+# a='aLe'
+# midd=len(a)//2
+# if len(a)%2==1:
+#     if 'A'<=a[midd]<='Z':
+#         print(a[midd]) 
+#     else:
+#         print('lower case')
+# else:
+#     print('not midd valu')
+
+
+# ------------------------------------------------------------------------------------------------------------------------
+
+# # While loop practice :
+
+# # 39.Wap to print python for 5 times. 
+# i=1
+# while i<=5:
+#     print('python')
+#     i=i+1
+
+
+# # 40.Wap to print n natural numbers. 
+# a=int(input('enter the value: '))
+# i=1
+# while a>=i:
+#     print(i)
+#     i=i+1
+
+
+# # 41.Wap to print multiplication table for n. 
+# a=int(input('enter the value: '))
+# i=1
+# while i<=10:
+#     print(a*i)
+#     i=i+1
+
+
+# # 42.Wap to find the sum of n natural numbers. 
+# n = int(input("Enter n: "))
+# i = 1
+# sum = 0
+# while i <= n:
+#     sum = sum + i
+#     i = i + 1
+# print("Sum =", sum)
+
+
+# # 43. Wap to find the product of n natural numbers or factorial of a number. 
+# n = int(input("Enter n: "))
+# i = 1
+# fact = 1
+# while i <= n:
+#     fact = fact * i
+#     i = i + 1
+# print("Factorial =", fact)
+
+
+# # 44.Wap to print all the characters of a string. 
+# a='Prajwal'
+# i=0
+# while i<len(a):
+#     print(a[i])
+#     i=i+1
+
+
+# # 45.Wap to print all the characters present at even index of a string. 
+# a='Prajwal'
+# i=0
+# while i<len(a):
+#     if i%2==0:
+#         print(a[i])
+#     i=i+1
+
+
+# # 46.Wap to extract all the lowercase characters present in a string. 
+# a='PraJwAl'
+# i=0
+# while i<len(a):
+#     if 'a'<=a[i]<='z' :
+#         print(a[i])
+#     i=i+1
+
+
+# # 47.Wap to extract all the vowels present in a string. 
+# a='prajwal'
+# i=0
+# while i<len(a):
+#     if a[i] in 'aeiouAEIOU':
+#         print(a[i])
+#     i=i+1
+
+
+# 48.Wap to print factors of a integer number. 
+n = int(input("Enter n: "))
+i=1
+while i<=n:
+    if n%i==0:
+        print(i)
+    i=i+1
     
