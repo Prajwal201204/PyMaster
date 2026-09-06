@@ -560,12 +560,44 @@
 #         print("Invalid OTP")
 
 
-# 54.Wap to run infinite loop until user enters the correct password. 
-correct_password = "python123"
-while True:
-    password = input("Enter password: ")
-    if password == correct_password:
-        print("Login Successful")
-        break
-    else:
-        print("Wrong Password")
+# # 54.Wap to run infinite loop until user enters the correct password. 
+# correct_password = "python123"
+# while True:
+#     password = input("Enter password: ")
+#     if password == correct_password:
+#         print("Login Successful")
+#         break
+#     else:
+#         print("Wrong Password")
+
+
+# # 55.Wap to extaract all the even integers present in a tuple at odd index. 
+# a=(1,2,3,4,5,6,7,8)
+# i=0
+# while i<len(a):
+#     if i%2!=0:
+#         if a[i]%2==0:
+#             print(a[i])
+#     i=i+1
+
+
+# # 56.Wap to remove duplicates from a list without converting into set. 
+# a=[1,2,3,1,5,3]
+# i=0
+# result=[]
+# while i < len(a):
+#     if a[i] not in result:
+#         result.append(a[i])
+#     i=i+1
+# print(result)
+
+
+# 57.Wap to find the sum of all the odd numbers between the given range. 
+a=10
+i=1
+add=0
+while i<=10:
+    if i%2!=0:
+        add+= i
+    i=i+1
+print(add)
