@@ -592,12 +592,51 @@
 # print(result)
 
 
-# 57.Wap to find the sum of all the odd numbers between the given range. 
-a=10
-i=1
-add=0
-while i<=10:
-    if i%2!=0:
-        add+= i
-    i=i+1
-print(add)
+# # 57.Wap to find the sum of all the odd numbers between the given range. 
+# start = int(input("Enter starting number: "))
+# end = int(input("Enter ending number: "))
+# i = start
+# sum = 0
+# while i <= end:
+#     if i % 2 != 0:
+#         sum = sum + i
+#     i = i + 1
+# print("Sum =", sum)
+
+
+# # 58.Wap to find the greatest number in a given list of integers. 
+# a = [10, 45, 23, 78, 12]
+# i = 1
+# greatest = a[0]
+# while i < len(a):
+#     if a[i] > greatest:
+#         greatest = a[i]
+#     i = i + 1
+# print("Greatest =", greatest)
+
+
+# # 59.Wap to find the sum of cube of a number in a string. 
+# a = input("Enter string: ")
+# i = 0
+# sum = 0
+# while i < len(a):
+#     if '0' <= a[i] <= '9':
+#         sum = sum + int(a[i]) ** 3
+#     i = i + 1
+# print("Sum =", sum)
+
+
+# # 60.Wap to check whether the number is Armstrong or not. 
+# a = 153
+# b = a
+# total = 0
+# cube = 0
+# while a > 0:
+#     t = a % 10
+#     cube = t ** 3
+#     total = total + cube
+#     a = a // 10
+# if total == b:
+#     print("Armstrong")
+# else:
+#     print("Not Armstrong")
