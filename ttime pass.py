@@ -640,3 +640,128 @@
 #     print("Armstrong")
 # else:
 #     print("Not Armstrong")
+
+
+# # 61.Wap to get the following output. 
+# # A='10011100'   B='00110101'    out=4(count of positions having same values) 
+# A = '10011100'
+# B = '00110101'
+# i = 0
+# count = 0
+# while i < len(A):
+#     if A[i] == B[i]:
+#         count = count + 1
+#     i = i + 1
+# print("Output =", count)
+
+
+# # 62.Wap to check the given number is prime or not.
+# a=7
+# i=1
+# count=0
+# while i<=a:
+#     if a%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print('prime')
+# else:
+#     print('not prime')
+
+
+# # 63.Wap to check whether the number is palindrome or not. 
+# a=212
+# b=a
+# r=0
+# while a>0:
+#     l=a%10
+#     r=r*10+l
+#     a=a//10
+# if b==r:
+#     print('palandrom')
+# else:
+#     print('not palandrom')
+
+
+# # 64.Wap to find the HCF of two numbers. 
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# if a < b:
+#     small = a
+# else:
+#     small = b
+# i = 1
+# hcf = 1
+# while i <= small:
+#     if a % i == 0 and b % i == 0:
+#         hcf = i
+#     i = i + 1
+# print("HCF =", hcf)
+
+
+# # 65.Wap to convert binary to decinaml. 
+# n = int(input("Enter binary number: "))
+# decimal = 0
+# power = 1
+# while n > 0:
+#     digit = n % 10
+#     decimal = decimal + digit * power
+#     n = n // 10
+#     power = power * 2
+# print("Decimal =", decimal)
+
+
+# # 66. Wap to convert decimal to binary.
+# n = int(input("Enter decimal number: "))
+# binary = ""
+# while n > 0:
+#     r = n % 2
+#     binary = str(r) + binary
+#     n = n // 2
+# print("Binary =", binary)
+
+
+# # 67.Wap to count the number of words in a string. 
+# a = input("Enter string: ")
+# i = 0
+# count = 0
+# while i < len(a):
+#     if a[i] != ' ' and (i == 0 or a[i-1] == ' '):
+#         count += 1
+#     i += 1
+# print(count)
+
+
+# # 68.Wap to guess the number. 
+# a=7
+# i=0
+# while i<=a:
+#     n=int(input('enter the value:') )
+#     if n==a:
+#         print('correct')
+#         break
+#     else:
+#         print('not correct')
+#     i+=1
+
+
+# # 69.Wap to find the common elements in two sets 
+# A = {10, 20, 30, 40}
+# B = {30, 40, 50, 60}
+# i=0
+# add=0
+# while i<len(A):
+#     if A[i] in B:
+#         add+=A
+#     i+=1
+# print(add)
+
+
+# # 70.Wap to find the product of all the digits present in a number. 
+# n = int(input("Enter number: "))
+# product = 1
+# while n > 0:
+#     digit = n % 10
+#     product = product * digit
+#     n = n // 10
+# print("Product =", product)
