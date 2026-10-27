@@ -748,13 +748,14 @@
 # # 69.Wap to find the common elements in two sets 
 # A = {10, 20, 30, 40}
 # B = {30, 40, 50, 60}
-# i=0
-# add=0
-# while i<len(A):
-#     if A[i] in B:
-#         add+=A
-#     i+=1
-# print(add)
+# a = list(A)
+# i = 0
+# common = set()
+# while i < len(a):
+#     if a[i] in B:
+#         common.add(a[i])
+#     i += 1
+# print(common)
 
 
 # # 70.Wap to find the product of all the digits present in a number. 
@@ -765,3 +766,93 @@
 #     product = product * digit
 #     n = n // 10
 # print("Product =", product)
+
+
+
+# ---------------------------------------------------------------------------------------------------------------------
+
+# For loop practice qution  
+
+# # 71.Wap to print all the integers present in a list. 
+# a = [10, "Prajwal", 20, 5.5, 30]
+# for i in a:
+#     if type(i)==int:
+#         print(i) 
+
+
+# # 72.Wap to find the length of homogenous tuple without len(). 
+# t = (10, 20, 30, 40, 50)
+# count=0
+# for i in t:
+#     count+=1
+# print(count)
+
+
+# # 73.Wap to extract all the even numbers present in a list. 
+# a = [10, 15, 22, 7, 30, 41]
+# for i in a:
+#     if i%2==0:
+#         print(i)
+
+
+# # 74. WAP to remove duplicates from a list
+# a = [10, 20, 10, 30, 20, 40]
+# b = []
+# for i in a:
+#     if i not in b:
+#         b = b + [i]
+# print(b)
+
+
+# # 75. WAP to reverse a string without using slicing
+# a = "Prajwal"
+# rev=''
+# for i in a:
+#     rev=i+rev
+# # print(rev)
+
+
+# # 76. WAP to extract all the lowercase characters in a string only if the ASCII value is even
+# a = "PraJwal"
+# for i in a:
+#     if 'a'<=i<='z':
+#         if ord(i)%2==0:
+#             print(i)
+
+
+# # 77. WAP to check whether the last digit of an integer is even or not
+# a = 1234
+# last = a % 10
+# if last % 2 == 0:
+#     print('even =', last)
+# else:
+#     print('not even =', last)
+
+
+# # 78.Wap to extract all the key value pairs from the dictionary only if the keys are of string datatype and values are integers.
+# a = {"name": 10, 20: "Prajwal", "age": 25, "city": 30}
+# for key, value in a.items() :
+#     if type(key)==str and type(value)==int:
+#         print(key , value)
+
+
+# # 79. WAP to extract key-value pairs from the dictionary only if both keys and values are exactly same
+# a = {"A": "A", "B": 20, 30: 30, "C": "D"}
+# for key , value in a.items():
+#     if key == value:
+#         print(key,value)
+
+
+# # 80.Wap to get the following output using len function. 
+# S = 'power star'
+# words = S.split()
+# d = {}
+# for i in words:
+#     d[i] = len(i)
+# print(d)
+
+class Student:
+    def __init__(self):
+        self.name = "Prajwal"
+s1=Student()
+print(s1)
